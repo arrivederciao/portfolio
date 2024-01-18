@@ -29,7 +29,7 @@ const Navbar = ({ title }) => {
             </div>
             <div className="navbar-center">
                 <NavbarItem itemTitle={"Home"} targetPath="/home" />
-                <NavbarItem itemTitle={"About"} />
+                <NavbarItem itemTitle={"Blog"} targetPath="/blog"/>
                 <NavbarItem itemTitle={"Projects"} targetPath="/projects" />
                 <NavbarItem itemTitle={"Contact"} targetPath="/contact" />
             </div>

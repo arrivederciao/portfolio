@@ -41,7 +41,7 @@
 }
 
 .about-container {
-    background-color: #594f3a;
+    background-color: #F0D2B6;
 }
 
 .about-row {
@@ -140,9 +140,9 @@
 .about-row-title {
     font-size: 64px;
     font-weight: 100;
-    color: #b69d78;
+    color: #594f3a;
     font-family: Poppins;
-    filter: drop-shadow(0px 0px 10px #b69d78);
+    filter: drop-shadow(0px 0px 10px #594f3a);
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -152,7 +152,7 @@
 }
 
 .about-row-description {
-    color: #b69d78;
+    color: #594f3a;
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -168,7 +168,7 @@
 
 .about-row-button {
     cursor: pointer;
-    background-color: #b69d78;
+    background-color: #594f3a;
     color: #F8F6F0;
     padding: 10px 30px;
     min-width: 100px;

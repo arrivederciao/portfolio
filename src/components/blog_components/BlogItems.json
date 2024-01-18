@@ -1,0 +1,33 @@
+[
+    {
+      "image": "../../assets/media/profile.jpg",
+      "color": "#acd546",
+      "text": "deneme 1",
+      "length": 5
+    },
+    {
+      "image": "../../assets/media/ask.jpg",
+      "color": "#485cda",
+      "text": "Hello 2",
+      "length": 4
+    },
+    {
+      "image": "../../assets/media/aaa.jpeg",
+      "color": "#aef825",
+      "text": "Hello 3",
+      "length": 1
+    },
+    {
+      "image": "../../assets/media/flu.jpg",
+      "color": "#9ad210",
+      "text": "Hello 4",
+      "length": 1
+    },
+    {
+      "image": "../../assets/media/oops.jpg",
+      "color": "#9dfa88",
+      "text": "Hello 5",
+      "length": 1
+    }
+  ]
+  
