@@ -1,7 +1,7 @@
 .contact-container {
     color: #594f3a;
     font-family: Poppins;
-    background-color: #F0D2B6;
+    background-color:#F8F6F0;
     position: relative;
     min-height: calc(100vh - 68px);
     display: flex;
@@ -16,7 +16,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 20px;
-    background: #F0D2B6;
+    background: #F8F6F0;
     width: 70%;
 }
 

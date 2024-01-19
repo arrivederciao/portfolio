@@ -1,0 +1,74 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0D2B6;
+  background-image: url('./media/ooo.jpg');
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #7e705d49;
+  padding: 50px;
+  border-radius: 20px;
+  color: #F0D2B6;
+  font-size: 26px;
+  width: 20%;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+-moz-box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+}
+
+
+.login-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #594f3a;;
+}
+
+.login-input-wrapper input {
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #594f3a;
+  background-color: transparent;
+  color: #594f3a;
+  font-size: 24px;
+}
+
+.login-input-button {
+  color: #F0D2B6;
+  width: calc(100% -20px);
+  padding: 10px;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #594f3a;
+  text-align: center;
+  cursor: pointer;
+
+ 
+}
+
+.login-input-button:hover {
+  background: #F0D2B6;
+  color: #594f3a; 
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+-moz-box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+box-shadow: 0px 0px 12px 2px rgba(133,130,133,1);
+
+}
+
+.login-input-button:active {
+  background: #F0D2B6; /* Active durumunda arka plan rengini değiştirme */
+}
+
+
+.login-error-message{
+  color: #F0D2B6;
+  text-align: center;
+  font-weight: 600;
+}

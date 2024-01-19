@@ -32,6 +32,7 @@ const Navbar = ({ title }) => {
                 <NavbarItem itemTitle={"Blog"} targetPath="/blog"/>
                 <NavbarItem itemTitle={"Projects"} targetPath="/projects" />
                 <NavbarItem itemTitle={"Contact"} targetPath="/contact" />
+                
             </div>
         </div>
     );
