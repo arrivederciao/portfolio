@@ -1,11 +1,13 @@
 import React from 'react';
-import profilePicture from '../../assets/media/profile.jpg'
+import profilePicture from '../../assets/media/profile.png'
 import '../../assets/About.css';
 import Navbar from '../navbar/navbar';
 import instagramIcon from '../../assets/media/instagram.png';
 import youtubeIcon from '../../assets/media/youtube.png';
 import snapchatIcon from '../../assets/media/snapchat.png';
 import linkedinIcon from '../../assets/media/linkedin.png';
+import Tilt from 'react-parallax-tilt';
+
 const Home = () => {
 
 
@@ -37,7 +39,20 @@ const Home = () => {
             <Navbar title={"Elif Demir"} />
             <div className="about-row">
                 <div className="about-row-part">
-                    <img className="about-img" src={profilePicture} alt="img" />
+                    <Tilt
+                        className="parallax-effect-glare-scale about-img-tilt"
+                        perspective={1000}
+                        glareEnable={true} glareMaxOpacity={0.2} glareColor="white" glarePosition="all"
+                        tiltMaxAngleX={5}
+                        tiltMaxAngleY={5}
+                    >
+                        <div className="inner-element">
+
+
+                            <img className="about-img" src={profilePicture} alt="img" />
+
+                        </div>
+                    </Tilt>
                 </div>
 
                 <div className='about-vertical-separator' />
@@ -68,7 +83,7 @@ const Home = () => {
                 <div className="about-row-part">
                     <div className="about-row-title">Follow Me</div>
 
-                    <SocialMediaButton/>
+                    <SocialMediaButton />
                 </div>
 
                 <div className='about-vertical-separator' />
