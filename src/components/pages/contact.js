@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/Contact.css';
 import Navbar from '../navbar/navbar';
+import EmailForm from '../forms/email.js'
 
 const Contact = () => {
     return (
@@ -8,16 +9,11 @@ const Contact = () => {
             <Navbar title={"Contact Me"} />
             <div className="contact-container">
                 <div className='personal-info-container'>
-                    <div className="personal-info-part part-with-img">
-
-
-                    </div>
-                    <div className='personal-info-part-vertical-separator' />
                     <div className="personal-info-part">
                         <div className="personal-info-title">
-                            Contact Info
+                            Contact Us
                         </div>
-                        <div className='personal-info-part-horizontal-separator' />
+                        {/*
                         <div className="personal-info-textarea">
                             <div className='personal-info'>
                                 Name: Elifnur
@@ -30,14 +26,21 @@ const Contact = () => {
 
                             </div>
                             <div className='personal-info'>
-                                E-Posta: elifnurdemir@outlook.com.tr
+                                E-Posta: <a className='personal-info-mail' href="mailto:elifnurdemir@outlook.com.tr">elifnurdemir@outlook.com.tr</a>
                             </div>
                             <div className='personal-info'>
 
-                                Adress: Kocaeli/Turkey
+                                Address: Kocaeli/Turkey
 
                             </div>
                         </div>
+                         */}
+
+                        <div className="email-container">
+                        <EmailForm/>
+                        </div>
+
+                        
 
 
                     </div>

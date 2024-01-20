@@ -15,13 +15,11 @@
 }
 
 .projects-header-title {
-    font-family: Poppins;
     font-size: 42px;
     font-weight: 200;
 }
 
 .projects-header-Description {
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
 }
@@ -62,8 +60,8 @@
 }
 .text-content{
     padding: 50px 0;
-    background-color: #594f3a;
-    color: #F0D2B6;
+    background-color: #212121;
+    color: #F8F6F0;
 }
 .project-link-container {
     display: flex;

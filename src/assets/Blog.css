@@ -72,10 +72,7 @@
     overflow: hidden;
     width: calc(100% - 20px);
     padding: 10px 10px 0px 10px;
-    background: rgb(73, 65, 49);
-    background: -moz-linear-gradient(0deg, rgb(73, 65, 49) 12%, rgba(151, 151, 151, 0.5102415966386555) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(106, 106, 106, 1) 12%, rgba(151, 151, 151, 0.5102415966386555) 100%);
-    background: linear-gradient(0deg, rgb(73, 65, 49) 12%, rgba(73, 65, 49, 0.51) 100%);
+    background: #212121aa;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
@@ -83,6 +80,7 @@
     gap: 20px;
     color: #fff;
     align-items: flex-start;
+    justify-content: center;
     transition: .3s ease;
 }
 
