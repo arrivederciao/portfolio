@@ -72,13 +72,16 @@
     overflow: hidden;
     width: calc(100% - 20px);
     padding: 10px 10px 0px 10px;
-    background: #F0D2B650;
+    background: rgb(73, 65, 49);
+    background: -moz-linear-gradient(0deg, rgb(73, 65, 49) 12%, rgba(151, 151, 151, 0.5102415966386555) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(106, 106, 106, 1) 12%, rgba(151, 151, 151, 0.5102415966386555) 100%);
+    background: linear-gradient(0deg, rgb(73, 65, 49) 12%, rgba(73, 65, 49, 0.51) 100%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: #F0D2B6;
+    color: #fff;
     align-items: flex-start;
     transition: .3s ease;
 }
@@ -86,7 +89,7 @@
 .blog-column-item-title {
     font-size: 1vw;
     font-weight: 400;
-    filter:  drop-shadow(0px 0px 1px #4b4031) drop-shadow(0px 0px 2px #4b4031) drop-shadow(0px 0px 3px #4b4031) drop-shadow(0px 0px 4px #4b4031) drop-shadow(0px 0px 5px #4b4031) drop-shadow(0px 0px 10px #4b4031);
+    
 }
 
 .blog-column-item-description {
@@ -96,7 +99,6 @@
     max-height: 0px;
     transition: 0.2s ease;
     padding: 0;
-    filter:  drop-shadow(0px 0px 1px #4b4031) drop-shadow(0px 0px 2px #4b4031) drop-shadow(0px 0px 3px #4b4031) drop-shadow(0px 0px 4px #4b4031) drop-shadow(0px 0px 5px #4b4031) drop-shadow(0px 0px 10px #4b4031);
 
 }
 

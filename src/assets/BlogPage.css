@@ -94,7 +94,7 @@
 .horizontal-blog-post-row {
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid #888;
+
     background-color: #F8F6F0;
 
 
@@ -123,6 +123,7 @@
 
 .horizontal-blog-post-row-single-side {
     padding: 50px 200px;
+    border-bottom: 3px solid #988;
     display: block !important;
 }
 

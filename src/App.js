@@ -8,6 +8,7 @@ import Contact from './components/pages/contact';
 import Blog from './components/pages/blog';
 import BlogPage from './components/pages/blogPage';
 import Login from './components/pages/login';
+import BackToTopButton from './components/button/backToTop';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
 
       </Routes>
+      <BackToTopButton />
     </Router>
   )
 }
