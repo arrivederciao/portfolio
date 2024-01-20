@@ -71,7 +71,7 @@ const Home = () => {
                                 Contact Me
                             </div>
                             <div className="about-row-button">
-                                About
+                                Blog
                             </div>
 
                         </div>
@@ -101,7 +101,7 @@ const Home = () => {
                                 Contact Me
                             </div>
                             <div className="about-row-button">
-                                Blog
+                                My Projects
                             </div>
 
                         </div>

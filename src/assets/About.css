@@ -99,6 +99,7 @@
   color: white;
   border-radius: 20px !important;
   transform-style: preserve-3d;
+  
 }
 
 
@@ -115,6 +116,7 @@
     background-size: contain;
     border-radius: 20px !important;
     transform: translateZ(20px) scale(99%);
+    
 }
 
 
@@ -122,8 +124,6 @@
     height: 360px;
     width: auto;
     border-radius: 20px !important;
-    -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     
     /*
     -webkit-box-shadow: 0px 0px 59px 0px rgba(8, 5, 8, 1);
