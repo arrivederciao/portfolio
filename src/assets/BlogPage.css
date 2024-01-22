@@ -4,11 +4,12 @@
 
 }
 
-.vertical-blog-post-header-image-container{
+.vertical-blog-post-header-image-container {
     flex: 1;
     position: relative;
 }
-.vertical-blog-post-header-image-wrapper{
+
+.vertical-blog-post-header-image-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -20,10 +21,11 @@
     background-color: #74644d;
 }
 
-.vertical-blog-post-header{
+.vertical-blog-post-header {
     flex-direction: row !important;
 }
-.vertical-blog-post-header-title-container{
+
+.vertical-blog-post-header-title-container {
     position: relative !important;
     height: 100% !important;
     background: #74644d !important;
@@ -33,16 +35,16 @@
     gap: 50px;
 }
 
-.vertical-blog-post-header-title{
+.vertical-blog-post-header-title {
 
     font-size: 32px;
 }
 
-.vertical-blog-post-header-description{
+.vertical-blog-post-header-description {
     font-size: 24px;
 }
 
-.hidden{
+.hidden {
     visibility: hidden !important;
 }
 
@@ -74,6 +76,7 @@
 
 .horizontal-blog-post-header-title-container {
     position: absolute;
+    text-align: center;
     bottom: 0;
     width: 100%;
     height: 30%;
@@ -88,6 +91,15 @@
     justify-content: center;
     font-size: 2vw;
     color: #fff;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.horizontal-blog-post-header-title-container::placeholder {
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
 }
 
 
@@ -103,7 +115,7 @@
 .horizontal-blog-post-row-side {
     flex: 1;
     padding: 50px;
-
+    max-width: calc(100% - 40px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -130,10 +142,15 @@
 
 .horizontal-blog-post-row-title {
     font-size: 32px;
+    margin-top: 20px;
+    word-break: break-all;
 }
 
+.horizontal-blog-post-row-paragraph{
+    word-break: break-all;
+}
 
-.horizontal-blog-post-motto-container{
+.horizontal-blog-post-motto-container {
     height: 30vh;
     background-attachment: fixed;
     background-position: center;
@@ -144,10 +161,51 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
-.horizontal-blog-post-motto{
+.absolute-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.horizontal-blog-post-motto {
     font-size: 4em;
     color: #fff;
     filter: drop-shadow(0px 0px 3px #000);
+}
+
+
+
+.image-input-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.image-input-container input {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.pink {
+    background-color: pink;
+}
+
+.bold {
+    font-weight: 900;
 }

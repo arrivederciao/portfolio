@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../assets/BlogPage.css';
 
-const VerticalImagedBlogPostInput = (blogData) => {
+const VerticalImagedBlogPost = (blogData) => {
     console.log(blogData)
     return (
         <div className="horizontal-blog-post-container">
@@ -26,9 +26,7 @@ const VerticalImagedBlogPostInput = (blogData) => {
 
            
 
-            {
-        blogData.blogData.paragraphs.map(({ title, paragraph, image, motto, mottoBackground }, index) => (
-            <>
+            
                 {mottoBackground && <div className="horizontal-blog-post-motto-container" style={{ backgroundImage: `url(${mottoBackground})` }}>
                     <div className="horizontal-blog-post-motto">{motto}</div>
 
@@ -49,14 +47,11 @@ const VerticalImagedBlogPostInput = (blogData) => {
                     </div>
                 </div>
 
-            </>
-
-        ))
-    }
+           
 
 
 
         </div >
     )
 }
-export default VerticalImagedBlogPostInput;
+export default VerticalImagedBlogPost;

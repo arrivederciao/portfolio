@@ -91,7 +91,7 @@ const Projects = () => {
             <div className='projects-header'>
                 <div className='projects-header-textarea'>
                     <div className='projects-header-title'>Harmony of Design and Code <br /> Unveiling my Frontend Masterpieces</div>
-                    <div className='projects-header-Description'>"You can do anything you set your mind to." <br /> - Benjamin Franklin</div>
+                    <div className='projects-header-Description'>"You can do anything you set your mind to. But never forget. You will never be as good and sexy as me ;)" <br /> - Elif Demir</div>
                 </div>
             </div>
             <div className='projects-separator' />

@@ -17,6 +17,8 @@
 }
 
 
+
+
 @-webkit-keyframes tracking-in-expand {
     0% {
         letter-spacing: -0.5em;
@@ -56,6 +58,7 @@
 
 .about-container {
     background-color: #F8F6F0;
+   
 }
 
 .about-row {

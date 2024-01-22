@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/Contact.css';
-import Navbar from '../navbar/navbar';
+import Navbar from '../navbar/navbar.js';
 import EmailForm from '../forms/email.js'
 
 const Contact = () => {

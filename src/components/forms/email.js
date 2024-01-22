@@ -43,8 +43,7 @@ const EmailForm = () => {
                 <input type="email" placeholder="example@mail.com" />
             </div>
             <div className="mail-input-area">
-                <textarea className="mail-long-text-area">
-                    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                <textarea className="mail-long-text-area"  placeholder="At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.">
                 </textarea>
             </div>
 
