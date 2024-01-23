@@ -2,28 +2,49 @@
 // BlogInbox.js
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import blogItems from '../blog_components/BlogItems.json';
 import Navbar from '../navbar/navbar';
 import HorizontalImagedBlogPostInput from './blog_inputs/horizontalImagedInput';
 import VerticalImagedBlogPostInput from './blog_inputs/verticalImagedInput';
 
 const BlogInbox = () => {
     const { id } = useParams();
-
+    const [blogItems, setBlogItems] = useState();
     const [pageType, setPageType] = useState();
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
 
-    useEffect(() => {
-        const blogItem = blogItems.find(item => item.id === parseInt(id, 10));
 
-        if (blogItem) {
-            determineImageDimensions(blogItem.image)
-                .then(message => {
-                    console.log(message);
-                });
-        }
+
+
+    useEffect(() => {
+        
+
+        fetch('http://localhost:3001/blogItems') // JSON Server'ın çalıştığı porta ve rotaya uygun olmalı
+            .then((response) => response.json())
+            .then((data) => setBlogItems(data))
+            .catch((error) => console.error('Error fetching blog items:', error));
+        
+
     }, [id]);
+
+
+    useEffect(() => {
+
+        if(blogItems){
+            console.log(blogItems)
+            const blogItem = blogItems.find(item => item.id);
+
+            if (blogItem) {
+                determineImageDimensions(blogItem.image)
+                    .then(message => {
+                        console.log(message);
+                    });
+            }
+        }
+       
+
+
+    },[blogItems])
 
     const determineImageDimensions = (imageSrc) => {
         const image = new Image();
@@ -74,7 +95,7 @@ const BlogInbox = () => {
     return (
         <>
             <Navbar title="Blog Inbox" />
-           
+
 
             {pageType === "verticalImaged" ?
                 <VerticalImagedBlogPostInput blogData={{ title, content, image: 'path/to/default/image.jpg' }} />

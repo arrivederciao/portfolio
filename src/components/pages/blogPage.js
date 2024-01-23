@@ -1,15 +1,31 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import blogItems from '../blog_components/BlogItems.json';
 import Navbar from '../navbar/navbar';
 import HorizontalImagedBlogPost from './blog_page_views/horizontalImaged';
 import VerticalImagedBlogPost from './blog_page_views/verticalImaged';
 
 const BlogPage = () => {
     const { id } = useParams();
+    const [blogItems, setBlogItems] = useState([]);
+    const [pageType, setPageType] = useState('');
+    const [blogItem, setBlogItem] = useState(null);
 
-    const [pageType, setPageType] = useState();
+    useEffect(() => {
+        fetch(`http://localhost:3001/blogItems/${id}`)
+            .then((response) => response.json())
+            .then((data) => setBlogItem(data))
+            .catch((error) => console.error('Error fetching blog item:', error));
+    }, [id]);
+
+    useEffect(() => {
+        if (blogItem) {
+            determineImageDimensions(blogItem.image)
+                .then((message) => {
+                    console.log(message);
+                });
+        }
+    }, [blogItem]);
+
     const determineImageDimensions = (imageSrc) => {
         const image = new Image();
         image.src = imageSrc;
@@ -36,33 +52,17 @@ const BlogPage = () => {
         });
     };
 
-
-    useEffect(() => {
-        const blogItem = blogItems.find(item => item.id === parseInt(id, 10));
-
-        if (blogItem) {
-            determineImageDimensions(blogItem.image)
-                .then(message => {
-                    console.log(message);
-                });
-        }
-    }, [id]);
-
-
-    const blogItem = blogItems.find(item => item.id === parseInt(id, 10));
-
-    console.log(blogItem);
-
     return (
-        <>
-            <Navbar title={blogItem.title.split('.')[0]} />
-            {pageType === "verticalImaged" ?
-                <VerticalImagedBlogPost blogData={blogItem} />
-                :
-                <HorizontalImagedBlogPost blogData={blogItem}  />
-            }
-
-        </>
+        blogItem && (
+            <>
+                <Navbar title={blogItem.title.split('.')[0]} />
+                {pageType === "verticalImaged" ? (
+                    <VerticalImagedBlogPost blogData={blogItem} />
+                ) : (
+                    <HorizontalImagedBlogPost blogData={blogItem} />
+                )}
+            </>
+        )
     );
 };
 

@@ -1,14 +1,30 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Navbar from '../navbar/navbar';
 import '../../assets/Blog.css';
 import testImage from '../../assets/media/profile.jpg';
-import blogItems from '../blog_components/BlogItems.json';
 import { useNavigate } from 'react-router-dom';
 const Blog = () => {
+  const [blogItems, setBlogItems] = useState([]); // Boş bir diziyle başlatıyoruz
 
   const navigate = useNavigate();
   const columnCount = 3;
 
+
+  useEffect(() => {
+    // JSON Server'dan verileri çekiyoruz
+    fetch('http://localhost:3001/blogItems') // JSON Server'ın çalıştığı porta ve rotaya uygun olmalı
+      .then((response) => response.json())
+      .then((data) => setBlogItems(data))
+      .catch((error) => console.error('Error fetching blog items:', error));
+
+
+  }, []); // Boş dependency array, sadece component ilk render olduğunda çalışmasını sağlar
+
+
+  useEffect(() => {
+    console.log(blogItems);
+  },[blogItems])
+  
   const navigateToBlogPage = (id) => {
     // Navigating to the "/blog/page/:id" route and passing the id as state
     navigate(`/blog/page/${id}`);
@@ -65,7 +81,7 @@ const Blog = () => {
     <>
       <Navbar title={'Elif Metin'} />
       <div className='blog-container'>
-        <div className='blog-column-container'>{generateColumns()}</div>
+        <div className='blog-column-container'>{blogItems && generateColumns()}</div>
       </div>
 
 

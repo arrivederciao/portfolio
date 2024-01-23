@@ -1,19 +1,29 @@
 import React, { useCallback, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 
-const ImageUploader = ({ imagefixed }) => {
+const ImageUploader = ({ imagefixed, onImageChange }) => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const onDrop = useCallback((acceptedFiles) => {
-    // Do something with the accepted image file
     const file = acceptedFiles[0];
+    const preview = URL.createObjectURL(file);
+
     setSelectedImage({
       file,
-      preview: URL.createObjectURL(file),
+      preview,
     });
-  }, []);
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop, accept: 'image/*' });
+    // Pass the selectedImage to the parent component
+    onImageChange({
+      file,
+      preview,
+    });
+
+    // Log the URL to the console
+    console.log('Dropped image URL:', acceptedFiles);
+  }, [onImageChange]);
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop, accept: '*' });
 
   return (
     <>
@@ -32,18 +42,6 @@ const ImageUploader = ({ imagefixed }) => {
       </div>
     </>
   );
-};
-
-const previewContainerStyle = {
-  marginTop: '20px',
-};
-
-const previewImageStyle = {
-  width: '100%',
-  height: '100%',
-  border: '1px solid #ccc',
-  borderRadius: '4px',
-  marginTop: '10px',
 };
 
 export default ImageUploader;

@@ -1,0 +1,271 @@
+{
+  "blogItems": [
+    {
+      "id": "0",
+      "image": "https://w.wallhaven.cc/full/4d/wallhaven-4dolqj.png",
+      "color": "#acd546",
+      "title": "Bilgisayarların Hayati Önemi",
+      "description": "Bilgisayarlar, geçmişten günümüze büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak bugün küçük, taşınabilir ve güçlü cihazlar haline geldiler. Bu evrim, teknolojinin hızlı ilerlemesi ve inovasyonuyla mümkün oldu.",
+      "paragraphs": [
+        {
+          "title": "Bilgisayarların Rolü",
+          "paragraph": "Bilgisayarlar, modern dünyada hayati bir öneme sahiptir. Endüstride, eğitimde ve günlük yaşamın birçok alanında kullanılırlar. Bilgisayar teknolojisi, iş süreçlerini hızlandırabilir, verimliliği artırabilir ve iletişimi kolaylaştırabilir. Ayrıca, bilgisayarlar sayesinde dünya genelinde bilgiye hızlı erişim mümkündür.",
+          "image": "https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg"
+        },
+        {
+          "motto": "Dunyayi ele gecirecekler",
+          "title": "Teknolojinin Evrimi",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://www.komando.com/wp-content/uploads/2018/11/dreamstime_m_87808373.jpg",
+          "mottoBackground": "https://w.wallhaven.cc/full/3k/wallhaven-3kq73v.jpg"
+        },
+        {
+          "motto": "Kara Tren Gecikiiir Belki Hic Gelmeeeez",
+          "title": "Teknolojinin Evrimi",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "image": "https://w.wallhaven.cc/full/n6/wallhaven-n6mq8l.jpg",
+      "color": "#acd546",
+      "title": "Bilgisayarların Evrimi",
+      "description": "Bilgisayarlar, geçmişten günümüze büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak bugün küçük, taşınabilir ve güçlü cihazlar haline geldiler. Bu evrim, teknolojinin hızlı ilerlemesi ve inovasyonuyla mümkün oldu.",
+      "paragraphs": [
+        {
+          "title": "Yapay Zeka ve Gelecek",
+          "paragraph": "Yapay zeka, bilgisayar bilimlerinde önemli bir alanı temsil eder ve gelecekte hayatımızın birçok yönünü etkileyebilir. Otomasyon, sağlık, ulaşım ve daha birçok sektörde yapay zeka uygulamaları beklenenin ötesinde bir dönüşüm sağlayabilir. Ancak bu teknolojinin etik ve güvenlik konularına dair endişeler de beraberinde getiriyor.",
+          "image": "https://picsum.photos/1800/900"
+        },
+        {
+          "motto": "Sanal Gerçeklik Deneyimi",
+          "title": "Sanal Gerçeklik",
+          "paragraph": "Sanal gerçeklik, bilgisayar teknolojisinin bir ürünü olarak gerçek dünyayı simüle etmek amacıyla kullanılan bir teknoloji türüdür. Oyun endüstrisinden eğitim alanına kadar birçok alanda kullanılan sanal gerçeklik, kullanıcılarına etkileyici ve immersif deneyimler sunar.",
+          "image": "https://images.pexels.com/photos/409016/pexels-photo-409016.jpeg",
+          "mottoBackground": "https://picsum.photos/1900/1080"
+        },
+        {
+          "motto": "Siber Güvenlik Önemi",
+          "title": "Siber Güvenlik",
+          "paragraph": "Bilgisayar sistemlerinin artan kullanımıyla birlikte siber güvenlik, önemli bir konu haline gelmiştir. Veri sızıntıları, fidye yazılımları ve diğer siber saldırılar, bireyleri, kurumları ve devletleri etkileyebilir. Güvenliğin sağlanması için sürekli olarak yeni çözümler ve stratejiler geliştirilmelidir.",
+          "image": "https://picsum.photos/1920/1080",
+          "mottoBackground": "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg"
+        },
+        {
+          "motto": "Neapion??",
+          "mottoBackground": "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg",
+          "title": "Veri Madenciliği ve Analitik",
+          "paragraph": "Veri madenciliği ve analitik, büyük veri setlerinden anlamlı bilgiler elde etme süreçlerini ifade eder. İşletmeler ve araştırmacılar, bu teknikleri kullanarak trendleri belirleyebilir, kararlarını destekleyebilir ve stratejik planlamalarını optimize edebilirler. Ancak, bu süreçlerde veri gizliliği ve etik sorunlar dikkate alınmalıdır.",
+          "image": "https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "image": "https://w.wallhaven.cc/full/4d/wallhaven-4dolqj.png",
+      "color": "#acd546",
+      "title": "Linux İşletim Sistemi Hakkında Bilmeniz Gerekenler!",
+      "description": "Linux; açık kaynak kodlu oluşunun yanı sıra Windows ve macOS gibi işletim sistemleriyle taşımış olduğu benzer özellikleri ile de dikkat çekiyor. Grafik arayüzü bakımından onlardan herhangi bir eksiği bulunmuyor. Bunun yanı sıra, fotoğraf ve video düzenleyicileri ile kelime işlemcileri gibi farklı yazılımlarının olduğunu da söylemeliyiz. Ayrıca, günlük hayat içerisinde sıklıkla kullandığımız çok sayıda uygulamanın Linux işletim sistemi için uyarlanmış versiyonu da vardır. Sonuç olarak, Linux; bilgisayarın var olduğu her yerde işe yarayacak bir işletim sistemidir.",
+      "paragraphs": [
+        {
+          "title": "Neden Linux?",
+          "paragraph": " Linux; Windows ve diğer işletim sistemlerine kıyasla bir hayli güvenli! Ayrıca, yine diğer işletim sistemlerine kıyasla daha esnek ve rahat oluşu beğeni topluyor. Buna ek olarak, Linux; var olduğu yer ile yetinmiyor. Bu işletim sistemini geliştirmek adına çaba sarf eden sistemin içinden veya dışından çok sayıda yazılımcı mevcut! İşletim sistemiyle ilgili sıkıntı yaşayan şirketlerin söz konusu yazılımcılardan destek alması mümkün!",
+          "image": " https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "motto": "Yetti gari",
+          "title": "Pardon elinizde hiç monster musume mangası bulunmakta mıydı ?",
+          "paragraph": "Bahtsız genç Kurusu Kimihito, devletin yürüttüğü Türler Arası Kültürün Değişim Hareketi isimli projeye gönüllü olmak zorunda kalmıştır ve proje kapsamında sadece mitolojik birer varlık olmadıkları ortaya çıkan Sentor, Harpia ve daha nice farklı türdeki canlıdan yılan vücuduna sahip bir Lamia olan Miia’yı evinde ağırlayacaktır. Görevi Miia ile ilgilenmek ve yeni çevresine uyum sağlamasına yardımcı olmak olan Kimihito, onun cazibesine kapılmadan edemez ancak türler arası çiftleşme yasalar tarafından sıkıca denetlenmektedir. Daha kötüsü büyüleyici bir Sentor kız ve flörtçü bir Harpia’da onlarla yaşamaya başladığında Kimihito yaşının getirisi hormonlarıyla nasıl başa çıkacağını bilmemektedir.",
+          "image": "https://i.redd.it/uz20w75af2d21.png",
+          "mottoBackground": "https://kargala.com/uploads/2023/6/6494e5ad-0da8-475e-82bf-df61fb74aeb4-Ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-2023-06-01-181958.png"
+        },
+        {
+          "motto": "Seni çok seviyorum Metrossommmmm",
+          "title": "Evrimsel kelebek",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3c11a4e-961b-47ec-8f72-acebce4c4562/dfwmugg-4e93af69-b035-4ece-a309-bbf5ecba8a15.jpg/v1/fill/w_1280,h_1920,q_75,strp/cyberpunk_city_vertical_wallpaper_by_coolarts223_dfwmugg-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzYzExYTRlLTk2MWItNDdlYy04ZjcyLWFjZWJjZTRjNDU2MlwvZGZ3bXVnZy00ZTkzYWY2OS1iMDM1LTRlY2UtYTMwOS1iYmY1ZWNiYThhMTUuanBnIiwiaGVpZ2h0IjoiPD0xOTIwIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvYzNjMTFhNGUtOTYxYi00N2VjLThmNzItYWNlYmNlNGM0NTYyXC9jb29sYXJ0czIyMy00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.GLSZaA9cVhtd4k52S8hHNDekYVqXshurYfP6e08w7cQ",
+      "color": "#acd546",
+      "title": "Cyberpunk 2023 e hazir mi?",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "paragraphs": [
+        {
+          "title": "Neden Linux?",
+          "paragraph": " Linux; Windows ve diğer işletim sistemlerine kıyasla bir hayli güvenli! Ayrıca, yine diğer işletim sistemlerine kıyasla daha esnek ve rahat oluşu beğeni topluyor. Buna ek olarak, Linux; var olduğu yer ile yetinmiyor. Bu işletim sistemini geliştirmek adına çaba sarf eden sistemin içinden veya dışından çok sayıda yazılımcı mevcut! İşletim sistemiyle ilgili sıkıntı yaşayan şirketlerin söz konusu yazılımcılardan destek alması mümkün!",
+          "image": " https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "motto": "Yetti gari",
+          "title": "Pardon elinizde hiç monster musume mangası bulunmakta mıydı ?",
+          "paragraph": "Bahtsız genç Kurusu Kimihito, devletin yürüttüğü Türler Arası Kültürün Değişim Hareketi isimli projeye gönüllü olmak zorunda kalmıştır ve proje kapsamında sadece mitolojik birer varlık olmadıkları ortaya çıkan Sentor, Harpia ve daha nice farklı türdeki canlıdan yılan vücuduna sahip bir Lamia olan Miia’yı evinde ağırlayacaktır. Görevi Miia ile ilgilenmek ve yeni çevresine uyum sağlamasına yardımcı olmak olan Kimihito, onun cazibesine kapılmadan edemez ancak türler arası çiftleşme yasalar tarafından sıkıca denetlenmektedir. Daha kötüsü büyüleyici bir Sentor kız ve flörtçü bir Harpia’da onlarla yaşamaya başladığında Kimihito yaşının getirisi hormonlarıyla nasıl başa çıkacağını bilmemektedir.",
+          "image": "https://i.redd.it/uz20w75af2d21.png",
+          "mottoBackground": "https://kargala.com/uploads/2023/6/6494e5ad-0da8-475e-82bf-df61fb74aeb4-Ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-2023-06-01-181958.png"
+        },
+        {
+          "motto": "Seni çok seviyorum Metrossommmmm",
+          "title": "Evrimsel kelebek",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg",
+      "color": "#acd546",
+      "title": "Bilgisayarlar neden hayati öneme sahiptirler?",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "paragraphs": [
+        {
+          "title": "Neden Linux?",
+          "paragraph": " Linux; Windows ve diğer işletim sistemlerine kıyasla bir hayli güvenli! Ayrıca, yine diğer işletim sistemlerine kıyasla daha esnek ve rahat oluşu beğeni topluyor. Buna ek olarak, Linux; var olduğu yer ile yetinmiyor. Bu işletim sistemini geliştirmek adına çaba sarf eden sistemin içinden veya dışından çok sayıda yazılımcı mevcut! İşletim sistemiyle ilgili sıkıntı yaşayan şirketlerin söz konusu yazılımcılardan destek alması mümkün!",
+          "image": " https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "motto": "Yetti gari",
+          "title": "Pardon elinizde hiç monster musume mangası bulunmakta mıydı ?",
+          "paragraph": "Bahtsız genç Kurusu Kimihito, devletin yürüttüğü Türler Arası Kültürün Değişim Hareketi isimli projeye gönüllü olmak zorunda kalmıştır ve proje kapsamında sadece mitolojik birer varlık olmadıkları ortaya çıkan Sentor, Harpia ve daha nice farklı türdeki canlıdan yılan vücuduna sahip bir Lamia olan Miia’yı evinde ağırlayacaktır. Görevi Miia ile ilgilenmek ve yeni çevresine uyum sağlamasına yardımcı olmak olan Kimihito, onun cazibesine kapılmadan edemez ancak türler arası çiftleşme yasalar tarafından sıkıca denetlenmektedir. Daha kötüsü büyüleyici bir Sentor kız ve flörtçü bir Harpia’da onlarla yaşamaya başladığında Kimihito yaşının getirisi hormonlarıyla nasıl başa çıkacağını bilmemektedir.",
+          "image": "https://i.redd.it/uz20w75af2d21.png",
+          "mottoBackground": "https://kargala.com/uploads/2023/6/6494e5ad-0da8-475e-82bf-df61fb74aeb4-Ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-2023-06-01-181958.png"
+        },
+        {
+          "motto": "Seni çok seviyorum Metrossommmmm",
+          "title": "Evrimsel kelebek",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "https://static.vecteezy.com/system/resources/previews/031/596/907/large_2x/in-the-world-of-business-a-chess-piece-symbolizes-strategic-financial-decisions-vertical-mobile-wallpaper-ai-generated-free-photo.jpg",
+      "color": "#acd546",
+      "title": "Satranc oynamanin puf noktalari. Bir de satranc hocasindan dinleyin!",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "paragraphs": [
+        {
+          "title": "Neden Linux?",
+          "paragraph": " Linux; Windows ve diğer işletim sistemlerine kıyasla bir hayli güvenli! Ayrıca, yine diğer işletim sistemlerine kıyasla daha esnek ve rahat oluşu beğeni topluyor. Buna ek olarak, Linux; var olduğu yer ile yetinmiyor. Bu işletim sistemini geliştirmek adına çaba sarf eden sistemin içinden veya dışından çok sayıda yazılımcı mevcut! İşletim sistemiyle ilgili sıkıntı yaşayan şirketlerin söz konusu yazılımcılardan destek alması mümkün!",
+          "image": " https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "motto": "Yetti gari",
+          "title": "Pardon elinizde hiç monster musume mangası bulunmakta mıydı ?",
+          "paragraph": "Bahtsız genç Kurusu Kimihito, devletin yürüttüğü Türler Arası Kültürün Değişim Hareketi isimli projeye gönüllü olmak zorunda kalmıştır ve proje kapsamında sadece mitolojik birer varlık olmadıkları ortaya çıkan Sentor, Harpia ve daha nice farklı türdeki canlıdan yılan vücuduna sahip bir Lamia olan Miia’yı evinde ağırlayacaktır. Görevi Miia ile ilgilenmek ve yeni çevresine uyum sağlamasına yardımcı olmak olan Kimihito, onun cazibesine kapılmadan edemez ancak türler arası çiftleşme yasalar tarafından sıkıca denetlenmektedir. Daha kötüsü büyüleyici bir Sentor kız ve flörtçü bir Harpia’da onlarla yaşamaya başladığında Kimihito yaşının getirisi hormonlarıyla nasıl başa çıkacağını bilmemektedir.",
+          "image": "https://i.redd.it/uz20w75af2d21.png",
+          "mottoBackground": "https://kargala.com/uploads/2023/6/6494e5ad-0da8-475e-82bf-df61fb74aeb4-Ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-2023-06-01-181958.png"
+        },
+        {
+          "motto": "Seni çok seviyorum Metrossommmmm",
+          "title": "Evrimsel kelebek",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "https://images.unsplash.com/photo-1533282960533-51328aa49826?q=80&w=2142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "color": "#acd546",
+      "title": "Sehirde yasamanin zorluklari",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "paragraphs": [
+        {
+          "title": "Neden Linux?",
+          "paragraph": " Linux; Windows ve diğer işletim sistemlerine kıyasla bir hayli güvenli! Ayrıca, yine diğer işletim sistemlerine kıyasla daha esnek ve rahat oluşu beğeni topluyor. Buna ek olarak, Linux; var olduğu yer ile yetinmiyor. Bu işletim sistemini geliştirmek adına çaba sarf eden sistemin içinden veya dışından çok sayıda yazılımcı mevcut! İşletim sistemiyle ilgili sıkıntı yaşayan şirketlerin söz konusu yazılımcılardan destek alması mümkün!",
+          "image": " https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "motto": "Yetti gari",
+          "title": "Pardon elinizde hiç monster musume mangası bulunmakta mıydı ?",
+          "paragraph": "Bahtsız genç Kurusu Kimihito, devletin yürüttüğü Türler Arası Kültürün Değişim Hareketi isimli projeye gönüllü olmak zorunda kalmıştır ve proje kapsamında sadece mitolojik birer varlık olmadıkları ortaya çıkan Sentor, Harpia ve daha nice farklı türdeki canlıdan yılan vücuduna sahip bir Lamia olan Miia’yı evinde ağırlayacaktır. Görevi Miia ile ilgilenmek ve yeni çevresine uyum sağlamasına yardımcı olmak olan Kimihito, onun cazibesine kapılmadan edemez ancak türler arası çiftleşme yasalar tarafından sıkıca denetlenmektedir. Daha kötüsü büyüleyici bir Sentor kız ve flörtçü bir Harpia’da onlarla yaşamaya başladığında Kimihito yaşının getirisi hormonlarıyla nasıl başa çıkacağını bilmemektedir.",
+          "image": "https://i.redd.it/uz20w75af2d21.png",
+          "mottoBackground": "https://kargala.com/uploads/2023/6/6494e5ad-0da8-475e-82bf-df61fb74aeb4-Ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-2023-06-01-181958.png"
+        },
+        {
+          "motto": "Seni çok seviyorum Metrossommmmm",
+          "title": "Evrimsel kelebek",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "69aa",
+      "image": "http://localhost:3000/4a809ec0-50c3-4add-b5b7-e7c6ce460d03",
+      "color": "#acd546",
+      "title": "Bilgisayarların tarihi",
+      "description": "İlk bilgisayar",
+      "paragraphs": [
+        {
+          "title": "ilk bilgisayar",
+          "paragraph": "İlk programlanabilir bilgisayar olan Z3, Kondrad Zuse tarafından geliştirildi. Z3, İkinci Dünya Savaşı sırasında Almanlar tarafından gizli şifreler yazmak için kullanıldı.",
+          "image": "",
+          "motto": "computer sucks",
+          "mottoBackground": "http://localhost:3000/aaf8f408-93b7-4063-b947-1bc4e9ea9e77"
+        }
+      ]
+    },
+    {
+      "id": "4323",
+      "image": "http://localhost:3000/f1cd037c-8c19-4f56-ab56-3cca84c9d8db",
+      "color": "#acd546",
+      "title": "YAPAY ZEKA",
+      "description": "Yapay zeka terimi, ilk kez 1956 yılında Dartmouth Konferansı'nda Prof. John McCarthy tarafından kullanıldı. Daha sonra pek çok konuda yapay zeka geliştirilmesi için muhtelif çalışmalar yapıldı.",
+      "paragraphs": [
+        {
+          "title": "İşte bunu yapaay",
+          "paragraph": "Ses tanıma:\nBilgisayarların sesleri tanıyabilmesi için mikrofon ve ses dijital hale getirilerek frekanslar oluşturulur. Söz konusu frekanslardan harfler ya da kelimeler kavranmaya çalışılarak sayılara dönüştürülür. Böylelikle yapay zeka, sesi tanır, anlar ve cevap verir. Yapay zeka ses tanıma özelliğini en iyi Siri, Now, Echo, Cortana kullanmaktadır.\nGörüntü işleme:\nKamera ile çekilen görüntüler dijital hale getirilerek piksellere, piksellerde koda dönüştürülür. Bu kodları yapay zeka algoritmaları yorumlar. Görüntü işlemeye en güzel örnek sürücüsüz (otonom) araçlardır.\n\nDoğal dil (lisan) işleme\nYapay zekanın en zorlu alanlarından biridir. İnsan ve bilgisayar etkileşimini maksimum seviyeye çıkarmak ya da farklı dilde konuşan kişiler arasındaki iletişimi güçlendirmek için çözümler üretir. Doğal dil işlemede; derin öğrenme, makine öğrenmesi (machine learning), istatiksel analiz ve kural tabanlı yaklaşımlar kullanılır.\n\nYazım hatalarının düzeltilmesinden, otomatik çeviri sistemlerine, dil öğrenimi uygulamalarından kişisel asistan uygulamalarına kadar doğal dil işleme kullanılmaktadır. Doğal dil işlemeye örnek olarak Google, Yandex, Siri, Google Asistan verilebilir.\n\nMuhakeme:\nMuhakeme, birbirine karşı savları olan iki tarafı dinleyerek bir yargıya varmaktır. Yapay zeka, muhakeme özelliği sayesinde mevcut verileri kullanarak çeşitli algoritmalar oluşturur ve en rasyonel kararı verebilir. Örneğin; Bir mahkeme hakiminin delilleri inceledikten ve tarafları dinledikten sonra suçlu ve suçsuzu ayırt etmesi gibi yapay zeka da muhakeme özelliği sayesinde suçluyu ve suçsuzu ayırt edilebilmektedir.\n",
+          "image": "",
+          "motto": "yapay zeka ne yapaay?",
+          "mottoBackground": "http://localhost:3000/d43883bd-c094-439e-a954-4261f313edfa"
+        }
+      ]
+    },
+    {
+      "id": "af50",
+      "image": "http://localhost:3000/250d65f3-c0c0-48c3-b84a-6e6488896055",
+      "color": "#acd546",
+      "title": "dsggsfg",
+      "description": "fsdfdsg",
+      "paragraphs": [
+        {
+          "title": "dsfdf",
+          "paragraph": "dfdf",
+          "image": "",
+          "motto": "dfdsf",
+          "mottoBackground": "http://localhost:3000/ad95be39-019a-448f-9a51-034f47c7dd85"
+        }
+      ]
+    },
+    {
+      "id": "5f1b",
+      "image": "https://i.pinimg.com/564x/2f/78/af/2f78afe72f8439900a80107bc0cca03f.jpg",
+      "color": "#acd546",
+      "title": "sfaoısjfos",
+      "description": "dsaggfh",
+      "paragraphs": [
+        {
+          "title": "dsgdg",
+          "paragraph": "dfsdg",
+          "image": "https://i.pinimg.com/564x/2f/5a/6d/2f5a6dae06ce623f53792df6e3a43e15.jpg",
+          "motto": "",
+          "mottoBackground": "https://i.pinimg.com/564x/ff/66/2a/ff662a1cd643471e72bf959e75b0b623.jpg"
+        }
+      ]
+    }
+  ]
+}
