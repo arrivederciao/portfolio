@@ -10,10 +10,15 @@
     }
 }
 
-
-
+.navbar-visible{
+    max-height: 1000px !important;
+}
+.navbar-hidden{
+    max-height: 0px !important;
+}
 .navbar-container {
     display: flex;
+    top: 0;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -23,18 +28,20 @@
     color: #ddd;
     overflow: hidden;
     flex-wrap: wrap;
+    z-index: 999;
+    transition: .3s ease;
 
 }
 
+.navbar-hidden .navbar-left{
+    display: none;
+    }
+
+.navbar-left {}
+
+.navbar-logo-wrapper {
 
 
-.navbar-left{
-    
-    
-}
-.navbar-logo-wrapper{
-    
-    
     position: absolute;
     left: 50px;
     top: 0;
@@ -43,13 +50,14 @@
     height: 100px;
     width: 100px;
     padding: 15px;
-    z-index: 1000000;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.navbar-logo{
+
+.navbar-logo {
     border-radius: 100px;
     filter: invert(.9);
     object-fit: contain;
@@ -60,50 +68,53 @@
     animation: rotate360 20s ease-in-out infinite;
 
 }
-@keyframes rotate360{
-    0%{
-        transform: rotate(0deg)
 
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg)
     }
 
-    25%{
+    25% {
         transform: rotate(360deg)
-        
     }
-    50%{
+
+    50% {
         transform: rotate(360deg)
-        
     }
-    75%{
+
+    75% {
         transform: rotate(0deg)
-        
     }
-    100%{
+
+    100% {
         transform: rotate(0deg)
     }
 }
-@keyframes runAway{
-    0%{
+
+@keyframes runAway {
+    0% {
         transform: translateX(0px)
+    }
+
+    33% {
+        transform: translate(calc(50vw - 150px), 50%) scale(200%);
 
     }
 
-    33%{
+    66% {
         transform: translate(calc(50vw - 150px), 50%) scale(200%);
-        
+
     }
-    66%{
-        transform: translate(calc(50vw - 150px), 50%) scale(200%);
-        
-    }
-    100%{
+
+    100% {
         transform: translateX(0px)
-        
     }
 }
-.navbar-logo:hover{
+
+.navbar-logo:hover {
     transform: rotate(360deg);
 }
+
 .navbar-item {
     transition: .2s ease;
     padding: 5px 15px;
@@ -143,7 +154,7 @@
 }
 
 .navbar-item:hover {
-    
+
     filter: drop-shadow(0px 0px 3px #fff)
 }
 
@@ -151,6 +162,24 @@
     .navbar-center {
         gap: 10px;
         flex-wrap: wrap;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .navbar-left {
+        position: relative;
+    }
+
+    .navbar-logo-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 34px;
+        width: 34px;
+        padding: 0;
     }
 
 }

@@ -209,3 +209,30 @@
 .bold {
     font-weight: 900;
 }
+
+
+@media screen and (max-width: 992px) {
+    .horizontal-blog-post-motto{
+        font-size: 32px;
+    }
+    .vertical-blog-post-header{
+        height: 100vh;
+        flex-direction: column !important;
+    }
+    .vertical-blog-post-header-image-wrapper {
+        background-position: center;
+    }
+    .vertical-blog-post-header-image-container{
+        flex: 3 !important;
+    }
+    .horizontal-blog-post-row-side{
+        padding: 10px;
+    }
+    .horizontal-blog-post-row{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .horizontal-blog-post-header-title-container{
+        font-size: 26px;
+    }
+}

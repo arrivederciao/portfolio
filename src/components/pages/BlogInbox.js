@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../navbar/navbar';
 import HorizontalImagedBlogPostInput from './blog_inputs/horizontalImagedInput';
-import VerticalImagedBlogPostInput from './blog_inputs/verticalImagedInput';
 
 const BlogInbox = () => {
     const { id } = useParams();
@@ -97,11 +96,9 @@ const BlogInbox = () => {
             <Navbar title="Blog Inbox" />
 
 
-            {pageType === "verticalImaged" ?
-                <VerticalImagedBlogPostInput blogData={{ title, content, image: 'path/to/default/image.jpg' }} />
-                :
+           
                 <HorizontalImagedBlogPostInput blogData={{ title, content, image: 'path/to/default/image.jpg' }} />
-            }
+            
         </>
     );
 };

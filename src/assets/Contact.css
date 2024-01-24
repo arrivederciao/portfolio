@@ -24,7 +24,7 @@
     font-weight: bolder;
     background: #00000075;
     border: #594f3a;
-    padding: 30px 80px;
+    padding: 10px;
     border-radius: 20px;
 }
 
@@ -178,4 +178,14 @@
     height: 2px;
     background: linear-gradient(90deg, transparent, #03f40f);
     animation: btn-anim1 2s linear infinite;
+}
+
+
+@media screen and (max-width: 992px) {
+    *{
+        outline: 1px solid red;
+    }
+    .contact-container{
+        height: calc(100vh - 60px);
+    }
 }
