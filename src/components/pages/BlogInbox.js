@@ -4,18 +4,27 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../navbar/navbar';
 import HorizontalImagedBlogPostInput from './blog_inputs/horizontalImagedInput';
-
+import { useNavigate } from 'react-router-dom';
 const BlogInbox = () => {
     const { id } = useParams();
     const [blogItems, setBlogItems] = useState();
     const [pageType, setPageType] = useState();
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
+    const navigate = useNavigate();
+    const greetingFromLocalStorage = localStorage.getItem("greeting");
 
+    useEffect(() => {
+       
 
+        if (!greetingFromLocalStorage) {
+          navigate('/');
+        } 
+    },[greetingFromLocalStorage])
 
 
     useEffect(() => {
+        
         
 
         fetch('http://localhost:3001/blogItems') // JSON Server'ın çalıştığı porta ve rotaya uygun olmalı

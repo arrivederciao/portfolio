@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import '../../assets/login.css';
 import Tilt from 'react-parallax-tilt';
+import { useNavigate } from 'react-router-dom';
 const Login = () => {
 
+    const navigate = useNavigate();
 
     const [username, setUsername] = useState(undefined);
     const [password, setPassword] = useState(undefined);
@@ -10,7 +12,7 @@ const Login = () => {
 
 
 
-    const trueUsername = "elifosso";
+    const trueUsername = "123";
     const truePassword = "123";
 
 
@@ -33,6 +35,9 @@ const Login = () => {
                 break;
             default:
                 message = "Hoş geldiniz";
+                localStorage.setItem("greeting", "Hello, World!");
+
+                navigate('/bloginbox');
         }
     
         setErrorMessage(message);

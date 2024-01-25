@@ -13,6 +13,7 @@ const EmailForm = () => {
 
     const sendEmail = () => {
 
+
         setCurrentButton(2)
 
         const emailData = {
@@ -22,6 +23,11 @@ const EmailForm = () => {
             from_mail: fromMail,
         };
 
+        if(toName === '' || fromName === '' || message === '' || fromMail===''){
+            setCurrentButton(4)
+            setTimeout(() => setCurrentButton(1), 2000);
+            return;
+        }
         emailjs.send(
             'service_4izjuyk', // Your service ID
             'template_ba8zvec', // Your template ID
@@ -31,14 +37,14 @@ const EmailForm = () => {
             .then((response) => {
                 console.log('Email sent successfully:', response);
                 setCurrentButton(3)
-                setTimeout(() => setCurrentButton(1), 5000); 
+                setTimeout(() => setCurrentButton(1), 5000);
 
             })
             .catch((error) => {
                 console.error('Email failed to send:', error);
                 setCurrentButton(4)
-                
-                setTimeout(() => setCurrentButton(1), 5000); 
+
+                setTimeout(() => setCurrentButton(1), 5000);
             });
     };
 
@@ -57,11 +63,15 @@ const EmailForm = () => {
             </div>
 
             <div className="mail-send-button" href="#" onClick={() => { sendEmail() }}>
-                {(currentButton === 1)  && "SEND"} 
-                {(currentButton === 2)  && "SENDING"} 
-                {(currentButton === 3)  && "SENT"} 
-                {(currentButton === 4)  && "FAILED"} 
-                <span />
+
+                {(currentButton === 1) && "SEND"}
+                {(currentButton === 2) && "SENDING"}
+                {(currentButton === 3) && "SENT"}
+                {(currentButton === 4) && "FAILED"}
+
+
+
+                <div className={`mail-span ${currentButton === 1 ? `mail-span-send` : ``} ${currentButton === 2 ? `mail-span-sending` : ``} ${currentButton === 3 ? `mail-span-sent` : ``} ${currentButton === 4 ? `mail-span-failed` : ``}`} />
             </div>
         </>
     );
