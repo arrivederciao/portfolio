@@ -29,7 +29,7 @@ const Navbar = ({ title }) => {
         <div className={`navbar-container`}>
             <div className="navbar-left">
                 <div className="navbar-logo-wrapper" >
-                    <img className="navbar-logo" src={arrivederciao} alt="logo"  />
+                    <img className="navbar-logo" src={arrivederciao} alt="logo" onClick={() => {navigate('/login')}} />
                 </div>
             </div>
             <div className="navbar-center">
