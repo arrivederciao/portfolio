@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.91a6dd24.css",
+    "main.js": "/portfolio/static/js/main.48166a75.js",
+    "static/js/787.2e3ce211.chunk.js": "/portfolio/static/js/787.2e3ce211.chunk.js",
+    "static/media/worldmap.jpg": "/portfolio/static/media/worldmap.79efa8506a94ef42e9bd.jpg",
+    "static/media/blogimg.jpg": "/portfolio/static/media/blogimg.99c59fe35eb54a39e48c.jpg",
+    "static/media/profile.png": "/portfolio/static/media/profile.b86d0bf49bfa787c7807.png",
+    "static/media/ooo.jpg": "/portfolio/static/media/ooo.0abfd023112452ce3dd8.jpg",
+    "static/media/Hermaiona.ttf": "/portfolio/static/media/Hermaiona.b00078830a78272990f0.ttf",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.7d4bc7ac5d83a9fa1770.jpg",
+    "static/media/Gomawo.ttf": "/portfolio/static/media/Gomawo.8b2169744fde83494907.ttf",
+    "static/media/arrivederciao.png": "/portfolio/static/media/arrivederciao.88aab7678673187829a3.png",
+    "static/media/digitype-studio-mainlux-light.otf": "/portfolio/static/media/digitype-studio-mainlux-light.1d163a4a585d510eac89.otf",
+    "static/media/github.png": "/portfolio/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.edb90ecc706a7a25542b.png",
+    "index.html": "/portfolio/index.html",
+    "main.91a6dd24.css.map": "/portfolio/static/css/main.91a6dd24.css.map",
+    "main.48166a75.js.map": "/portfolio/static/js/main.48166a75.js.map",
+    "787.2e3ce211.chunk.js.map": "/portfolio/static/js/787.2e3ce211.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91a6dd24.css",
+    "static/js/main.48166a75.js"
+  ]
+}
