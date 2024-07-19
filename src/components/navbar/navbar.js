@@ -28,8 +28,8 @@ const Navbar = ({ title }) => {
     return (
         <div className={`navbar-container`}>
             <div className="navbar-left">
-                <div className="navbar-logo-wrapper">
-                    <img className="navbar-logo" src={arrivederciao} alt="logo" />
+                <div className="navbar-logo-wrapper" >
+                    <img className="navbar-logo" src={arrivederciao} alt="logo"  />
                 </div>
             </div>
             <div className="navbar-center">
