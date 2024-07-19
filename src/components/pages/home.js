@@ -94,7 +94,7 @@ const Home = () => {
                             Who Am I ?
                         </div>
                         <div className="about-row-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        I'm Elifnur Demir, a passionate Frontend Developer and Computer Programming student, aspiring to become a Full Stack Web Developer. Skilled in HTML, CSS, JavaScript, and React, I transform creative designs into functional web experiences. Let's build the future together!
                         </div>
                         <div className="about-row-button-container">
                             <div className="about-row-button">
